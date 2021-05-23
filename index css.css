@@ -1,0 +1,659 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    height: 1500%;
+}
+header{
+   /* background: linear-gradient(to right, #fc00ff, #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-image: url(t.jpg);
+   background-size: cover;
+    width: 100%;
+    height: 500px;
+    float: left;
+border-radius: 20px 10px 20px 10px;
+text-align: center;
+
+}
+
+span{
+width: 29%;
+/*background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float: right;
+height: 110px;
+border-radius: 20px 10px 20px 10px;
+   
+}
+span img{
+width: 100px;  
+height: 100px; 
+border-radius: 50%; 
+ float: right;
+ padding: 1px;
+ border: 2px double wheat;
+ 
+}
+span h1{
+text-align: center;
+width: 70%;
+padding: 25px;
+color: rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width: 70%;
+    text-align: center;
+    transform: translate(-250px);
+
+}
+nav li{
+    line-height: 100px; 
+text-align: center;
+    display: inline-block;
+    width:15%; 
+ 
+    
+}
+nav a{
+    width: 80%;
+    text-decoration: none; 
+    color: #ae7cff;      
+font-size: 20px;
+display: inline-block;   
+}
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(82, 82, 82);
+    height: 100%;
+    width: 100%;
+    
+}
+.dog{
+    width: 100%;
+    height: 4000px;
+    background-color: rgb(161, 161, 161);
+    display: inline-block ;
+    border-top: 5px solid rgb(255, 255, 255);
+    /*clip-path: polygon(4% 0, 95% 0, 100% 20%, 100% 80%, 96% 100%, 4% 100%, 0% 80%, 0 20%);*/
+    animation-name: fady;  
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+
+}
+.dog aside{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    border-top: 5px solid wheat;
+    
+}
+aside div{
+    float: left;
+    
+}
+div img{
+    width: 95%;  
+height: 100%; 
+border-radius: 50%; 
+transform: translateY(10%);
+border: 2px solid rgb(255, 255, 255);
+}
+div h2{
+    text-align: center;
+    transform:translate(0% , 100%);
+    padding: 10px;
+    border-bottom: 2px solid red;
+
+}
+article{ 
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;  
+    position: relative;
+}
+.fady{ 
+    position: absolute;
+    width: 440px;
+    height: 300px;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top: 35%;
+    left:67%;
+    transform: translate(-50% , -50%);
+    animation-name: box;
+    animation-duration: 5s;
+    border-radius: 20px;
+
+    
+}
+.fady1{
+    position: absolute;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 440px;
+    height: 300px;
+    float: right;
+    left:34%; 
+       top:70% ;
+    border-radius: 20px;
+
+}
+.box{
+    width: 400px;
+    height: 180px;
+    border-radius: 0%; 
+    transform: translate(-6% , -10%);
+    border-radius: 10px;
+    background-color: black;
+}
+.box1{
+    width: 400px;
+    height: 180px;
+    border-radius: 0%; 
+    transform: translate(-6% , -10%);
+    border-radius: 10px;
+    background-color: black;
+}
+.call{
+    border-radius: 0%;
+width: 20%;
+float: right;
+border: none;
+}
+.h3{
+padding: 30px;
+text-align: center;
+}
+.foda{
+    position: absolute;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 440px;
+    height: 300px;
+    float: left;
+    right:70%;
+    top:1% ;
+    border-radius: 20px;
+}
+.dos{
+    background-color: #fcfcfc;
+    position: absolute;
+    right:70%;
+    top: 85% ;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+.dos1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left:60%;
+    top: 85% ;
+}
+.dos1:hover{
+    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.dos:hover{
+    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.text{
+font-size: 20px;
+position: absolute;
+left: 35px;
+top: 5px;
+}
+
+.foda1{
+    position: absolute;
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 440px;
+    height: 300px;
+    float: left;
+    right:70%;
+    top:70% ;
+    border-radius: 20px;
+}
+ .all{
+     transform: translate(-10% , 20%);
+     
+ }
+ .mp4{
+    width: 350px;
+    height: 200px;
+     transform: translate(10% , 80%);
+border-bottom: 3px double red ;
+ }
+
+ .a{
+     display: block;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ del{
+     color: red;
+ }
+@keyframes fady {
+   0%{
+    width: 100%;
+    height: 1000px;
+    background-color: #721bff;
+   } 
+   50%{
+background-color: blue;
+width: 100%;
+height: 1000px;
+}
+   75%{
+    background-color: rgb(247, 60, 60);
+    width: 100%;
+    height: 1000px;
+   }
+   100%{
+    width: 100%;
+    height: 1000px;
+    background-color: blueviolet;
+   }
+}
+
+@media only screen and (min-width:940px) and (max-width:1280px) {
+.box{
+    width: 180px;
+}
+.box1{
+    width:150px;
+}
+.foda{
+    width: 200px;
+}
+.foda1{
+    width: 200px;
+}
+
+.dos{
+    width: 70px;
+}
+
+.dos1{
+    width: 70px;
+}
+.fady{
+    width: 200px; 
+    transform: translate(-80% , -50%);
+}
+.fady1{
+    width: 200px; 
+}
+span h1{
+width: 80%;
+}
+nav a{
+    width:110%;
+    float: none;
+    background-color: aqua;
+    height: 20%;
+    margin: 70px;
+    
+        }
+}
+@media (max-width:1000px) and (max-width:1280px) {
+    nav a{
+width:110%;
+float: none;
+background-color: aqua;
+height: 20%;
+margin: 70px;
+
+    }
+    .box{
+        width: 180px;
+    }
+    .box1{
+        width:150px;
+    }
+    .foda{
+        width: 200px;
+    }
+    .foda1{
+        width: 200px;
+    }
+    
+    .dos{
+        width: 70px;
+        transform: translate(70% , 70%);
+
+    }
+    
+    .dos1{
+        width: 70px;
+        transform: translate(-61% , 170%);
+
+    }
+    .fady{
+        width: 200px; 
+        transform: translate(-80% , -50%);
+    }
+    .fady1{
+        width: 200px; 
+    }
+    span h1{
+    width: 80%;*
+    }
+    .mp4{
+        width: 200px;
+        height: 20px;
+         transform: translate(270% , 1000%);
+     }
+     .gooddog{
+         font-size: 20px;
+         transform: translate(-30% , 20%);
+
+     }
+     span{
+        transform: translate(-100% , 50%);
+        width: 29%;
+        /*background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        float: right;
+        height: 80px;
+        border-radius: 20px 10px 20px 10px;
+           
+        }
+        nav {
+            margin: 80px;
+            width: 100%;
+float: right;
+transform: translate(50% , 50%);
+
+                }
+    }  
+    @media (max-width:1000px) {
+        span{
+            transform: translate(-100% , 50%);
+            width: 10%;
+            /*background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            float: none;
+            height: 20px;
+            border-radius: 20px 10px 20px 10px;
+               
+            }
+            nav {
+                margin: 0px;
+                width:130%;
+    float: right;
+    transform: translate(20% , -20%);
+    
+                    }
+                    nav a {
+                        font-size: 3px;
+                    }
+                    .box{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .box1{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .foda{
+                        width: 135px; 
+
+                    }
+                    .foda1{
+                        width: 135px; 
+                        transform: translate(-5% , 50%);
+
+                    }
+                    
+                    .dos{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+
+                    }
+                    
+                    .dos1{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+                        text-align: center;
+                        transform: translate(-73% , 180%);
+
+                    }
+                    .fady{
+                        width: 135px; 
+                        transform: translate(-40% , -50%);
+                    }
+                    .fady1{
+                        width: 135px; 
+                        transform: translate(25% , 50%);
+
+                    }
+                    
+                    span h1{
+                    width: 80%;
+                    }
+                    .mp4{
+                        width: 200px;
+                        height: 20px;
+                         transform: translate(90% , -2900%);
+                     }
+                     .gooddog{
+                         font-size: 20px;
+                         transform: translate(120% , -200%);
+                         color: #eef2f3;
+                
+                     }
+                     .text{
+                         text-align: center;
+                         position: absolute;
+                         transform: translate(-30% , 20%);
+
+
+                     }
+                     main{
+                         height: 30000px;
+                     }
+    }
+    @media only print{
+        header{
+            /* background: linear-gradient(to right, #fc00ff, #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-image: url(t.jpg);
+            background-size: cover;
+             width: 100%;
+             height: 500px;
+             float: left;
+         border-radius: 20px 10px 20px 10px;
+         text-align: center;
+         
+         }
+        span{
+            transform: translate(-100% , 50%);
+            width: 10%;
+            /*background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            float: none;
+            height: 20px;
+            border-radius: 20px 10px 20px 10px;
+               
+            }
+            nav {
+                margin: 0px;
+                width:130%;
+    float: right;
+    transform: translate(20% , -20%);
+    
+                    }
+                    nav a {
+                        font-size: 3px;
+                    }
+                    .box{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .box1{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .foda{
+                        width: 135px; 
+
+                    }
+                    .foda1{
+                        width: 135px; 
+                        transform: translate(-5% , 50%);
+
+                    }
+                    
+                    .dos{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+
+                    }
+                    
+                    .dos1{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+                        text-align: center;
+                        transform: translate(-73% , 180%);
+
+                    }
+                    .fady{
+                        width: 135px; 
+                        transform: translate(-40% , -50%);
+                    }
+                    .fady1{
+                        width: 135px; 
+                        transform: translate(25% , 50%);
+
+                    }
+                    
+                    span h1{
+                    width: 80%;
+                    }
+                    .mp4{
+                        width: 200px;
+                        height: 20px;
+                         transform: translate(90% , -2900%);
+                     }
+                     .gooddog{
+                         font-size: 20px;
+                         transform: translate(120% , -200%);
+                         color: #eef2f3;
+                
+                     }
+                     .text{
+                         text-align: center;
+                         position: absolute;
+                         transform: translate(-30% , 20%);
+
+
+                     }
+                     main{
+                         height: 30000px;
+                     }
+    }
+    }
+    @media screen  and(orientation:portrait) {
+        header{
+            /* background: linear-gradient(to right, #fc00ff, #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-image: url(t.jpg);
+            background-size: cover;
+             width: 100%;
+             height: 500px;
+             float: left;
+         border-radius: 20px 10px 20px 10px;
+         text-align: center;
+         
+         }
+        span{
+            transform: translate(-100% , 50%);
+            width: 10%;
+            /*background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            float: none;
+            height: 20px;
+            border-radius: 20px 10px 20px 10px;
+               
+            }
+            nav {
+                margin: 0px;
+                width:130%;
+    float: right;
+    transform: translate(20% , -20%);
+    
+                    }
+                    nav a {
+                        font-size: 3px;
+                    }
+                    .box{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .box1{
+                        height: 60px;
+                        width: 80px;
+                    }
+                    .foda{
+                        width: 135px; 
+
+                    }
+                    .foda1{
+                        width: 135px; 
+                        transform: translate(-5% , 50%);
+
+                    }
+                    
+                    .dos{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+
+                    }
+                    
+                    .dos1{
+                        height: 70px;
+                        width: 100px;
+                        position: absolute;
+                        text-align: center;
+                        transform: translate(-73% , 180%);
+
+                    }
+                    .fady{
+                        width: 135px; 
+                        transform: translate(-40% , -50%);
+                    }
+                    .fady1{
+                        width: 135px; 
+                        transform: translate(25% , 50%);
+
+                    }
+                    
+                    span h1{
+                    width: 80%;
+                    }
+                    .mp4{
+                        width: 200px;
+                        height: 20px;
+                         transform: translate(90% , -2900%);
+                     }
+                     .gooddog{
+                         font-size: 20px;
+                         transform: translate(120% , -200%);
+                         color: #eef2f3;
+                
+                     }
+                     .text{
+                         text-align: center;
+                         position: absolute;
+                         transform: translate(-30% , 20%);
+
+
+                     }
+                     main{
+                         height: 30000px;
+                     }
+    }
